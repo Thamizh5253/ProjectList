@@ -1,0 +1,20 @@
+.gitlogo {
+  height: 40px;
+  margin-top: 30px;
+  width: 40px;
+  border: 2px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 90px;
+  cursor: pointer;
+}
+
+.gitlogo:hover {
+  scale: 1.09;
+  color: black;
+}
+.gitlogo:active {
+  scale: 0.97;
+}

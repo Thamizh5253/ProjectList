@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 
 import ProjectLink from "./ProjectLink";
 import LIKE from "./like";
+import GIT from "./git";
 import { ToastContainer } from "react-toastify";
 
 function App() {
@@ -36,7 +37,12 @@ function App() {
         linkUrl="https://age-calculator-iota-sage.vercel.app/"
         linkTitle="Age Calculator"
       />
+      <ProjectLink
+        linkUrl="https://mario-weather.vercel.app/"
+        linkTitle="Mario-Weather App"
+      />
 
+      <GIT></GIT>
       <LIKE></LIKE>
     </div>
   );
